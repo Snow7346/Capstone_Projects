@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-08T16:54:32 IST" name="My Suite" finished-at="2025-08-08T16:55:42 IST" duration-ms="70351">
+    <groups>
+    </groups>
+    <test started-at="2025-08-08T16:54:32 IST" name="MyTest" finished-at="2025-08-08T16:55:42 IST" duration-ms="70351">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:32 IST" name="setupReport" finished-at="2025-08-08T16:54:32 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setupDriver(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:32 IST" name="setupDriver" finished-at="2025-08-08T16:54:37 IST" duration-ms="4665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.testEmptyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="testEmptyLogin()[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:37 IST" name="testEmptyLogin" finished-at="2025-08-08T16:54:37 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:37 IST" name="tearDown" finished-at="2025-08-08T16:54:37 IST" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmptyLogin status=SUCCESS method=LoginTest.testEmptyLogin()[pri:0, instance:tests.LoginTest@77847718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:37 IST" name="setupDriver" finished-at="2025-08-08T16:54:39 IST" duration-ms="1669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.testInvalidLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:39 IST" name="testInvalidLogin" finished-at="2025-08-08T16:54:40 IST" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:40 IST" name="tearDown" finished-at="2025-08-08T16:54:40 IST" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin()[pri:0, instance:tests.LoginTest@77847718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:40 IST" name="setupDriver" finished-at="2025-08-08T16:54:43 IST" duration-ms="2736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.testValidLogin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:43 IST" name="testValidLogin" finished-at="2025-08-08T16:54:45 IST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:54:45 IST" name="tearDown" finished-at="2025-08-08T16:54:45 IST" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:tests.LoginTest@77847718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.LoginTest@77847718]" started-at="2025-08-08T16:55:42 IST" name="flushReport" finished-at="2025-08-08T16:55:42 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AddToCartTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.reflect.Method)[pri:0, instance:tests.AddToCartTest@5c33f1a9]" started-at="2025-08-08T16:54:45 IST" name="setupDriver" finished-at="2025-08-08T16:54:47 IST" duration-ms="1654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddToCartTest.removeItemfromCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="removeItemfromCart()[pri:0, instance:tests.AddToCartTest@5c33f1a9]" started-at="2025-08-08T16:54:47 IST" name="removeItemfromCart" finished-at="2025-08-08T16:54:58 IST" duration-ms="11579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemfromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AddToCartTest@5c33f1a9]" started-at="2025-08-08T16:54:58 IST" name="tearDown" finished-at="2025-08-08T16:54:59 IST" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeItemfromCart status=SUCCESS method=AddToCartTest.removeItemfromCart()[pri:0, instance:tests.AddToCartTest@5c33f1a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.reflect.Method)[pri:0, instance:tests.AddToCartTest@5c33f1a9]" started-at="2025-08-08T16:54:59 IST" name="setupDriver" finished-at="2025-08-08T16:55:04 IST" duration-ms="5739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddToCartTest.testAddItemToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="testAddItemToCart()[pri:0, instance:tests.AddToCartTest@5c33f1a9]" started-at="2025-08-08T16:55:04 IST" name="testAddItemToCart" finished-at="2025-08-08T16:55:10 IST" duration-ms="6028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AddToCartTest@5c33f1a9]" started-at="2025-08-08T16:55:10 IST" name="tearDown" finished-at="2025-08-08T16:55:10 IST" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddItemToCart status=SUCCESS method=AddToCartTest.testAddItemToCart()[pri:0, instance:tests.AddToCartTest@5c33f1a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.reflect.Method)[pri:0, instance:tests.AddToCartTest@5c33f1a9]" started-at="2025-08-08T16:55:10 IST" name="setupDriver" finished-at="2025-08-08T16:55:12 IST" duration-ms="1603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddToCartTest.testAddMultipleItemToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="testAddMultipleItemToCart()[pri:0, instance:tests.AddToCartTest@5c33f1a9]" started-at="2025-08-08T16:55:12 IST" name="testAddMultipleItemToCart" finished-at="2025-08-08T16:55:23 IST" duration-ms="11229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleItemToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AddToCartTest@5c33f1a9]" started-at="2025-08-08T16:55:23 IST" name="tearDown" finished-at="2025-08-08T16:55:23 IST" duration-ms="95" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddMultipleItemToCart status=SUCCESS method=AddToCartTest.testAddMultipleItemToCart()[pri:0, instance:tests.AddToCartTest@5c33f1a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.reflect.Method)[pri:0, instance:tests.CheckoutTest@1623b78d]" started-at="2025-08-08T16:55:23 IST" name="setupDriver" finished-at="2025-08-08T16:55:28 IST" duration-ms="4980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CheckoutTest.PlaceOrder() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="PlaceOrder()[pri:0, instance:tests.CheckoutTest@1623b78d]" started-at="2025-08-08T16:55:28 IST" name="PlaceOrder" finished-at="2025-08-08T16:55:34 IST" duration-ms="6151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckoutTest@1623b78d]" started-at="2025-08-08T16:55:34 IST" name="tearDown" finished-at="2025-08-08T16:55:35 IST" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceOrder status=SUCCESS method=CheckoutTest.PlaceOrder()[pri:0, instance:tests.CheckoutTest@1623b78d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.reflect.Method)[pri:0, instance:tests.CheckoutTest@1623b78d]" started-at="2025-08-08T16:55:35 IST" name="setupDriver" finished-at="2025-08-08T16:55:36 IST" duration-ms="1598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CheckoutTest.checkOutFlow() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="checkOutFlow()[pri:0, instance:tests.CheckoutTest@1623b78d]" started-at="2025-08-08T16:55:36 IST" name="checkOutFlow" finished-at="2025-08-08T16:55:42 IST" duration-ms="6108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckoutTest@1623b78d]" started-at="2025-08-08T16:55:42 IST" name="tearDown" finished-at="2025-08-08T16:55:42 IST" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOutFlow status=SUCCESS method=CheckoutTest.checkOutFlow()[pri:0, instance:tests.CheckoutTest@1623b78d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- MyTest -->
+  </suite> <!-- My Suite -->
+</testng-results>

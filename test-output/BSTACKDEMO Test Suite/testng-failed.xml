@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BSTACKDEMO Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SmokeTests(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="testValidLogin"/>
+          <include name="testInvalidLogin"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AddToCartTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="testAddItemToCart"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- tests.AddToCartTest -->
+    </classes>
+  </test> <!-- SmokeTests(failed) -->
+</suite> <!-- Failed suite [BSTACKDEMO Test Suite] -->
